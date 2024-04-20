@@ -1,4 +1,5 @@
 import "./App.css";
+import UseMemoComp from "./UseMemoComp";
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
         application more efficient by optimizing how resources are utilized
         during rendering.
       </p>
+      <UseMemoComp />
     </div>
   );
 }
